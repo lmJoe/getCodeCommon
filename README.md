@@ -12,8 +12,11 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=appid&redirect_uri=htt
 
 下载index.html之后配置在你的服务器上，在微信授权下的域名能够访问到
 `https://域名/index.html`是要进入的页面
-
+带参数链接
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx16a3abc5b33035cf&redirect_uri=https://static-quickvideotest.29293.com/qkv2/phone.html?code=A18772119&apkType=7003&response_type=code&scope=snsapi_userinfo&state=https://static-quickvideotest.29293.com/qkv2/phone.html?code=A18772119&apkType=7003#wechat_redirect
+不带参数链接
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx16a3abc5b33035cf&redirect_uri=https://static-quickvideotest.29293.com/qkv2/phone.html&response_type=code&scope=snsapi_userinfo&state=https://static-quickvideotest.29293.com/qkv2/phone.html#wechat_redirect
 
 
 使用微信开发工具访问上面参考链接，最后会进入下面链接，同时带上code
-https://域名/index.html?code=0014rK302cHWcV0w7K502IhK3024rK3u  
+https://域名/index.html?code=0014rK302cHWcV0w7K502IhK3024rK3u
